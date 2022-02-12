@@ -1,0 +1,19 @@
+package sudoku;
+
+public class Settings {
+	int w;
+	int h;
+	boolean isFullscreen;
+	
+	Settings(int w,int h ,boolean isFullscreen){
+		this.w = w;
+		this.h = h;
+		this.isFullscreen = isFullscreen;
+	}
+	Settings(){
+		this.w = 800;
+		this.h = 600;
+		this.isFullscreen = false;
+	}
+
+}

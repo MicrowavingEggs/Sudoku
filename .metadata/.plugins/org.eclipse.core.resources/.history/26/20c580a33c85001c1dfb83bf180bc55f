@@ -1,0 +1,8 @@
+package sudoku;
+
+public class Settings {
+	int w;
+	int h;
+	boolean isFullscreen;
+
+}
